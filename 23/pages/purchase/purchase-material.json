@@ -1,0 +1,14 @@
+
+[{
+   "statusCode" : "0",
+   "errorMessage" : "添加成功"
+},{
+   "statusCode" : "1",
+   "errorMessage" : "添加失败"
+},{
+   "statusCode" : "1",
+   "errorMessage" : "添加失败"
+},{
+   "statusCode" : "0",
+   "errorMessage" : "添加成功"
+}]

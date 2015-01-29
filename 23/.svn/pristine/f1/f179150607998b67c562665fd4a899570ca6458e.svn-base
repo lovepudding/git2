@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	color:#FFF;
+}
+body,.header,.year_content{
+	width:100%;
+	min-width:1366px;
+}
+body{
+	background:url(../images/12.jpg) top left repeat-y;
+}
+/*--header--*/
+.header{
+	background:#12385F url(../images/startGame_logo.jpg) no-repeat left;
+}
+.header,.header table td{
+	height:50px;
+}
+.header .tab_td1,.tab_td2{width:45px;}
+.header .tab_td3{width:70px;}
+.tab_td3 img{
+	width:38px;
+	height:38px;
+}
+.header .tab_td3 img{margin-left:20px;}
+.header .tab_td4{width:120px;}
+/*--content begin--*/
+/*--content_left--*/
+.content_left{
+	width:197px;
+}
+.content_left_dl,dl{
+	 width:179px;
+}
+.content_left_dl img{
+	width:20px;
+	height:20px;
+}
+.content_left_dl dl div{
+    width:21px;
+	height:23px;
+	position:absolute;
+	display:inline-block;
+	top:13px;
+	*top:13px;
+	left:18px;
+	background:#355A86;
+	opacity:0.5; 
+	filter:alpha(opacity=50);  
+}
+.left_div{background:#20466D;}
+dt,dd{
+	 height:45px;
+	 width:179px;
+	 line-height:45px;
+	  /*--兼容IE6--*/
+    *border-collapse:collapse;
+	*border:1px solid #8696AD;
+	*height:35px;
+	*padding-top:5px;
+	  }
+dt{
+	 background:url(../images/11.jpg) no-repeat left center;
+	 position:relative; 
+	  }
+dt img{
+	margin-left:18px;
+	margin-right:15px;
+    *margin-top:8px;	
+	}
+dd{
+	 margin-left:0px;
+	 display:none; 
+	 }
+dd a{
+	width:179px;
+	height:45px;
+	display:block;
+	*margin-top:-7px;
+}
+dl dd span{
+	 margin-left:46px;
+	 /*padding-top:5px; */
+	 }
+.dl_first{
+	 width:194px;
+	 *width:179px;
+	 background:url(../images/1.jpg) no-repeat left center;
+ }
+.dl_change{
+	 width:194px;
+	*width:179px;
+	 background:url(../images/4.jpg) no-repeat left center;
+ }/*当鼠标点击一级菜单时背景图片的改变*/
+.dl_change_2{
+	  background:url(../images/11.png) no-repeat left center;
+ }/*当鼠标移到一级菜单时背景图片改变，颜色加深*/
+ .dl_last{
+	 background:url(../images/pic_last.jpg) no-repeat left center;/*最后一个退出按钮鼠标移上时的颜色，暗红色*/
+ }
+.dd_bgcolor{
+	 background:#20466D;/*当鼠标移入二级菜单时的背景颜色变化，蓝色加深*/
+}
+.dd_bgcolor_2{
+	 background:#52809A;/*当鼠标点击二级菜单时的背景颜色，蓝色减弱*/
+ }
+/*--content_right--*/
+.content_right{
+	
+	width:1165px;
+	min-width:1165px;
+}
+.content_right iframe{
+	width:1135px;
+	min-width:1135px;
+	min-height:720px;
+	border:none;
+	*float:left;
+	margin-left:10px;
+}
+.year_footer p{
+	 height:20px;
+    *float:none;
+    width:100%;
+    background:#DBDAD6;
+    color:#000;
+	
+	margin:40px auto;
+}

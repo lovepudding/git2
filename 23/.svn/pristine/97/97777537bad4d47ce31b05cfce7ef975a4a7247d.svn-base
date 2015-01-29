@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//En" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>采购原料</title>
+  <link href="../../css/start_common.css" rel="stylesheet"/>
+  <link href="../../css/purchase/purchase-material.css" rel="stylesheet" />
+ </head>
+ <body>
+<!--页面最大的div-->
+ <div class="content">
+	<!--包含白色标题和灰色小横条部分-->
+	<div class="trabecula">
+		<!--白色写标题的部分-->
+		<div class="trabecula-white">
+			<span><h2>购买原料<span>&nbsp;&nbsp;Purchase of raw materials</span></h2></span>
+		<!--白色写标题的部分结束-->
+		</div>
+		<!--灰色的小横条-->
+		<div class="gray-trabecula">
+			<!--小图标大小30px,33px-->
+			<span><img src="../../images/shopping.gif" /></span>
+			<span><h4>采购管理</h4></span>
+			<span>></span>
+			<span><h4>购买原料</h4></span>
+		<!--灰色的小横条结束-->		
+		</div>
+	<!--包含白色标题和灰色小横条部分结束-->
+	</div>
+	<!--页面主要内容-->
+	<div class="main-content">
+		<!--R1-->
+		<div class="r-content">
+			<img src="../../images/purchase-material/R1.gif" />
+			<div class="detail">
+				<h2>库存数量：2</h2>
+				<h2>单价：1</h2>
+				<h2>等待周期：1</h2>
+			</div>
+			<form>
+			<div class="buyR">
+				<p>购买数量：<input type="text" /></p>
+				<p>存放仓库：<input class="text-center" value="1号仓库" type="text" /></p>
+				<input class="mt" type="image" src="../../images/purchase-material/buy.gif" />
+			</div>
+			</form>
+		<!--R1结束-->
+		</div>
+		<!--R2-->
+		<div class="r-content">
+			<img src="../../images/purchase-material/R2.gif" />
+			<div class="detail">
+				<h2>库存数量：2</h2>
+				<h2>单价：1</h2>
+				<h2>等待周期：1</h2>
+			</div>
+			<form>
+			<div class="buyR">
+				<p>购买数量：<input type="text" /></p>
+				<p>存放仓库：<input class="text-center" value="1号仓库" type="text" /></p>
+				<input class="mt" type="image" src="../../images/purchase-material/buy.gif" />
+			</div>
+			</form>
+		<!--R2结束-->
+		</div>
+		<!--R3-->
+		<div class="r-content">
+			<img src="../../images/purchase-material/R3.gif" />
+			<div class="detail">
+				<h2>库存数量：2</h2>
+				<h2>单价：1</h2>
+				<h2>等待周期：1</h2>
+			</div>
+			<form>
+			<div class="buyR">
+				<p>购买数量：<input type="text" /></p>
+				<p>存放仓库：<input class="text-center" value="1号仓库" type="text" /></p>
+				<input class="mt" type="image" src="../../images/purchase-material/buy.gif" />
+			</div>
+			</form>
+		<!--R3结束-->
+		</div>
+		<!--R4-->
+		<div class="r-content">
+			<img src="../../images/purchase-material/R4.gif" />
+			<div class="detail">
+				<h2>库存数量：2</h2>
+				<h2>单价：1</h2>
+				<h2>等待周期：1</h2>
+			</div>
+			<form>
+			<div class="buyR">
+				<p>购买数量：<input type="text" /></p>
+				<p>存放仓库：<input class="text-center" value="1号仓库" type="text" /></p>
+				<input class="mt" type="image" src="../../images/purchase-material/buy.gif" />
+			</div>
+			</form>
+		<!--R4结束-->
+		</div>
+	<!--页面主要内容-->
+	</div>
+ <!--页面最大的div结束-->
+ </div>
+ <script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+ <script type="text/javascript">
+	$(".text-center").click(function(){
+		if(this.value==""){
+		this.value="";
+		}
+	});
+	$(".text-center").blur(function(){
+		if(this.value==""){
+			this.value="1号仓库";
+			}
+		
+	});
+ </script>
+ </body>
+</html>
